@@ -26,7 +26,7 @@ sys.stdin.readline()
 #
 # Let's import factorial function and fill the historam
 #
-print "Next, we import 'factorial' function from lec006_define_function.py."
+print "Next, we import 'factorial' function from lec008_define_function.py."
 print "Then we fill the histogram with factorial of the X-axis value!"
 from lec008_define_function import factorial
 
