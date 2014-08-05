@@ -15,6 +15,8 @@ msg_3="... hey I learned how to sprintf equivalent method!"
 
 print "%s %s %s" % (msg_1,msg_2,msg_3)
 
+print msg_1,msg_2,msg_3
+
 #
 # Next method: use sys module
 #
@@ -33,7 +35,7 @@ sys.stderr.write("Hello world ... using 'sys.stderr.write()'\n")
 print
 print "OK! Let's read in your input using sys module..."
 print
-sys.stdout.write("Type whatever:")
+sys.stdout.write("Type whatever: ")
 user_input=sys.stdin.readline()
 
 print "Your input is shown in the next line!"

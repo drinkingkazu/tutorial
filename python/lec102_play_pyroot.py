@@ -28,7 +28,7 @@ sys.stdin.readline()
 #
 print "Next, we import 'factorial' function from lec006_define_function.py."
 print "Then we fill the histogram with factorial of the X-axis value!"
-from lec006_define_function import factorial
+from lec008_define_function import factorial
 
 for x in xrange(h1.GetNbinsX()):
     # Note ROOT histogram bin number starts from 1 while xrange array starts from 0.
