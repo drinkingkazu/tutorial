@@ -3,7 +3,7 @@ class foo:
 
     def __init__(self):
         
-        print self.__clas__,'constructor'
+        print self.__class__,'constructor'
 
     def __del__(self):
 
