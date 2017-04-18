@@ -1,0 +1,20 @@
+Currently I am lacking slides nor description of codes that should go along with exampl to show
+the point of each example codes. Here I describe one important and often misunderstood thing:
+the "virtuality" of class members.
+
+It's a simple question: when should functions be virtual? Why is destructor virtual?
+
+Here are list of rules I follow:
+
+0) Favor non-virtual interface. Separate a virtual function-to-be-implemented from an interface, and use template deisng pattern
+
+1) Favor to make virtual functions private
+
+2) Make virtual functions protected if needs to be invoked by derived class
+
+3) Make base class destructor public and virtual if polymorphism is used and destructor may be called from the base class type instance
+
+4) Make base class destructor protected and non-virtual otherwise
+
+Hopefully I go over these points via examples, but at least here I leave texts (feel free to ask me questions via emails/texts)
+
